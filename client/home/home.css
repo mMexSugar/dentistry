@@ -1,0 +1,884 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1280px;
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: url(assets/header_background.png);
+    background-repeat: no-repeat;
+    margin-top: 40px;
+    width: 1280px;
+}
+
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center; 
+    height: 90px;
+    width: 1280px; 
+}
+
+
+.logo_img {
+    display: flex;
+    height: 14vh;
+    align-items: center;
+}
+
+
+.nav_bar__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 32px;
+    height: 14vh;
+}
+
+
+.home {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.service {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.about {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+.contact {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+.nav_button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 140px;
+    height: 55px;
+    font-family: 'inter';
+    font-weight: 400;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    color: #ffff;
+    background-color:rgb(19, 118, 248);
+    cursor: pointer;
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 18px;
+}
+
+
+.header_content {
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+}
+
+
+.header_title__text {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 60px;
+    width: 106%;
+}
+
+
+.dentist_img {
+    width: 735px;
+    height: 675px;
+}
+
+
+
+.header_description__text {
+    font-family: 'open sans';
+    font-weight: 400;
+    color: rgb(60, 73, 89);
+    padding-top: 25px;
+}
+
+
+
+.header_content_container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    column-gap: 20px;
+}
+
+
+.appointmant_button {
+    width: 227px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(19, 118, 248);
+    color: white;
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.appointmant_button:hover {
+    background-color:  rgb(6, 78, 172);
+}
+
+
+
+.call_us__container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 20px;
+}
+
+.call_us_img {
+    cursor: pointer; ;
+}
+
+.call_us_img:hover{
+    color: rgb(190, 190, 190);
+}
+
+
+.call_us__text {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+
+
+.emergency_text {
+    font-family: 'open sans';
+    font-weight: 600;
+    color: rgb(19, 118, 248);
+
+}
+
+
+.phone_number_text {
+    font-family: 'open sans';
+    font-weight: 500;
+    color: rgb(1, 22, 50);
+}
+
+
+
+.thomas_daniel__background {
+    width: 375px;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    margin-top: 50px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+
+.thomas_daniel__container {
+    display: flex;
+    flex-direction: row;
+}
+
+.left_colum{
+    width: 350px;
+}
+
+.left_colum{
+    display: flex;
+    row-gap: 40px;
+    column-gap: 9px;
+}
+
+
+.thomas_daniel__text___container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3px;
+    width: 374px;
+}
+
+.dentist_name__text {
+    font-family: 'open sans';
+    font-weight: 500;
+    color: rgb(1, 22, 50);
+}
+
+.sr_text {
+    font-family: 'open sans';
+    font-weight: 400;
+    color: rgb(1, 22, 50);
+}
+
+.thomas_daniel__description___text {
+    font-family: 'open sans';
+    font-weight: 400;
+    color: rgb(1, 22, 50);
+}
+
+
+/* main */
+
+.main_services {
+    background: url(assets/header_background.svg);
+    height: 400px;
+    width: 1280px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 25px;
+}
+
+
+.main_services__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    width: 390px;
+    height: 300px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    justify-content: center;
+}
+
+.text{
+  padding: 0 50px;
+  text-align:center;
+}
+
+
+.ln_img {
+    align-items: right;
+
+}
+
+
+.thomas_daniel__description {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(1, 22, 50);
+}
+
+
+.services_text__style {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(1, 22, 50);
+}
+
+
+.services_text__description___style {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: rgb(60, 73, 89);
+}
+
+
+.learn_more__container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    column-gap: 8px;
+}
+
+.learn_more__text___style{
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(60, 73, 89);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.welcoming_container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 145px;
+    margin-top: 120px;
+}
+
+.wellcoming_text__flex {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.welcoming_text__container {
+    width: 555px;
+}
+
+
+.welcoming_text__style {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(1, 22, 50);
+}
+
+
+
+.welcoming_description__container {
+    width: 500px;
+}
+
+
+.welcoming_description__text___style {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(60, 73, 89);
+}
+
+.welcoming_button {
+    width: 227px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(19, 118, 248);
+    color: white;
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+
+.welcoming_button:hover {
+    background-color:  rgb(6, 78, 172);
+}
+
+
+
+.enter_phone__number {
+    display: flex;
+    align-items: center;
+}
+
+.enter_phone__number input {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 2px solid rgb(207, 207, 207);
+    height: 56px;
+    border-radius: 6px;
+    width: 341px;
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(207, 207, 207);
+}
+
+.submit_button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 117px;
+    align-items: center;
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    border-radius: 6px;
+    height: 58px;
+    background-color: rgb(19, 118, 248);
+    color: rgb(255, 255, 255);
+    border: none;
+    transform: translate(-10%,0);
+    cursor: pointer;
+}
+
+.submit_button:hover {
+    background-color:  rgb(6, 78, 172);;
+}
+
+
+.enter_phone__number input[type="email"]:focus {
+    outline: none;
+}
+
+.enter_phone__number input[type="email"]::placeholder {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(207, 207, 207);
+    opacity: 59%;
+
+}
+
+
+
+.choose_us__background {
+    background: url(assets/choose_us_background.svg);
+    height: 555px;
+    /* width: 1280px; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 125px;
+    margin-top: 120px;
+}
+
+
+
+
+
+.choose_us__container {
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 10px;
+}
+
+
+
+
+
+
+.welcoming_container {
+    display: flex;
+    flex-direction: row;
+    column-gap: 145px;
+    margin-left: 70px;
+    margin-top: 120px;
+}
+
+.choose_us__text___flex{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.choose_us__text___container {
+    width: 555px;
+}
+
+.choose_us__text___style {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 40px;
+    color: rgb(1, 22, 50);
+}
+
+
+
+.choose_us__description___conainer {
+    width: 500px;
+}
+
+
+.choose_us__description___text____style {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(60, 73, 89);
+}
+
+
+/*  */
+
+
+.our_specialists_background {
+    /* background: url(./assets/choose_us_background.svg);
+    height: 753px;
+    width: 100%; */
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+}
+
+
+
+.our_specialists__title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 100px;
+    row-gap: 20px;
+}
+
+
+
+h1{
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 42px;
+}
+
+
+
+.our_specialists__description {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 18px;
+    width: 480px;
+    color: rgb(60, 73, 89);
+    text-align: center;
+}
+
+.doctor_1 {
+    background: url(assets/doctor_1.svg);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 305px;
+    height: 340px;
+}
+
+.doctor_2 {
+    background: url(assets/doctor_2.svg);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 305px;
+    height: 340px;
+}
+
+
+.doctor_3 {
+    background: url(assets/doctor_3.svg);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 305px;
+    height: 340px;
+}
+
+
+
+.doctor_4 {
+    background: url(assets/doctor_4.svg);
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    width: 305px;
+    height: 340px;
+}
+
+.doctor_group__container {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    justify-content: center;
+    row-gap: 20px;
+    /* width: 1280px; */
+}
+
+
+
+
+.doctor_1__background {
+    /* background: url(./assets/doctors__background.svg); */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 5px;
+    width: 273px;
+    height: 90px;
+    border-radius: 10px;
+    background: linear-gradient(to right, rgb(85, 153, 206),  rgb(207, 211, 213 ));
+    margin-bottom: 16px;
+
+}
+
+
+.doctors_text__style___container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 5px;
+    margin-left: 16px;
+}
+
+.doctors_text__style {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
+}
+
+
+.speciality_name__text___style {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+.our_happy__clients___container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    margin-bottom: 50px;
+}
+
+
+.our_happy__clients___title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center ;
+    margin-top: 100px;
+    row-gap: 20px;
+}
+
+
+
+.our_happy__clients___description {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 18px;
+    width: 480px;
+    color: rgb(60, 73, 89);
+    text-align: center;
+}
+
+
+
+.reviews_container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.reviews_background {
+    width: 375px;
+    height: 225px;
+    background: #FFFFFF;
+    box-shadow: 2px 5px 45px rgba(237, 163, 181, 0.25);
+    border-radius: 16px;
+    padding-left: 17px;
+    padding-right: 17px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+}
+
+
+
+
+
+.thomas_daniel__reviews___container {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.thomas_daniel__reviews___img {
+    width: 70px;
+    height: 70px;
+}
+
+
+.left_colum_2{
+    width: 350px;
+}
+
+.left_colum_2{
+    display: flex;
+    row-gap: 40px;
+    column-gap: 9px;
+}
+
+
+.thomas_daniel__text___container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 3px;
+    width: 374px;
+}
+
+.dentist_reviews__names {
+    font-family: 'open sans';
+    font-weight: 500;
+    font-size: 24px;
+    color: rgb(1, 22, 50);
+}
+
+.sr_text {
+    font-family: 'open sans';
+    font-weight: 400;
+    color: rgb(1, 22, 50);
+}
+
+.reviews_text {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 16px;
+    color: rgb(60, 73, 89);
+}
+
+
+
+/* footer */
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer_background {
+    background: url(assets/footer_background.svg);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 80px;
+    width: 1064px;
+    height: 390px;
+    margin-top: 60px;
+}
+
+.footer_background_container {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    width: 600px;
+}
+
+
+.footer_title__text {
+    font-family: 'open sans';
+    font-weight: 600;
+    font-size: 42px;
+    color: rgb(255, 255, 255);
+}
+
+.footer_description__text {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    width: 500px;
+}
+
+.footer_button {
+    width: 150px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(19, 118, 248);
+    color: white;
+    font-family: 'open sans';
+    font-size: 18px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+
+.footer_nav__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; 
+    height: 90px;
+    margin-top: 100px;
+    width: 1280px; 
+}
+
+
+hr {
+    width: 1280px;
+    color: rgb(1, 22, 50);
+    margin-bottom: 30px;
+}
+
+
+
+.rights_text__style {
+    font-family: 'open sans';
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(1, 22, 50);
+}
+
+.footer_social__media___container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 74px;
+    width: 1280px;
+}
+
+
+.footer_social__media {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}

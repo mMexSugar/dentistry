@@ -1,0 +1,28 @@
+<svg width="178.000000" height="178.000000" viewBox="0 0 178 178" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_201_5711_dd" x="-0.500000" y="-0.500000" width="178.000000" height="178.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="5"/>
+			<feGaussianBlur stdDeviation="20.8333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0.1451 0 0 0 0 0.70588 0 0 0 0 0.97255 0 0 0 0.2 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<clipPath id="clip201_5712">
+			<rect id="time 1" width="26.500000" height="26.500000" transform="translate(75.000000 70.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_201_5711_dd)">
+		<circle id="Ellipse 1097" cx="88.500000" cy="83.500000" r="26.500000" fill="#1376F8" fill-opacity="1.000000"/>
+	</g>
+	<rect id="time 1" width="26.500000" height="26.500000" transform="translate(75.000000 70.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip201_5712)">
+		<path id="Vector" d="M88.25 96.5C95.55 96.5 101.5 90.55 101.5 83.25C101.5 75.94 95.55 70 88.25 70C80.94 70 75 75.94 75 83.25C75 90.55 80.94 96.5 88.25 96.5ZM88.25 71.76C94.58 71.76 99.73 76.91 99.73 83.25C99.73 89.58 94.58 94.73 88.25 94.73C81.91 94.73 76.76 89.58 76.76 83.25C76.76 76.91 81.91 71.76 88.25 71.76Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+		<path id="Vector" d="M92.11 87.47C92.27 87.6 92.47 87.66 92.66 87.66C92.92 87.66 93.18 87.55 93.35 87.33C93.66 86.95 93.59 86.39 93.21 86.09L89.13 82.82L89.13 76.18C89.13 75.69 88.73 75.3 88.25 75.3C87.76 75.3 87.36 75.69 87.36 76.18L87.36 83.25C87.36 83.52 87.49 83.77 87.69 83.93L92.11 87.47Z" fill="#FFFFFF" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

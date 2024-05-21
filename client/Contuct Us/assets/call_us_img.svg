@@ -1,0 +1,27 @@
+<svg width="64.000000" height="64.000000" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_15_482_dd" x="-0.500000" y="-0.500000" width="64.000000" height="64.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+			<feOffset dx="0" dy="4"/>
+			<feGaussianBlur stdDeviation="1.33333"/>
+			<feComposite in2="hardAlpha" operator="out" k2="-1" k3="1"/>
+			<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+			<feBlend mode="normal" in2="BackgroundImageFix" result="effect_dropShadow_1"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="effect_dropShadow_1" result="shape"/>
+		</filter>
+		<linearGradient id="paint_linear_201_3241_0" x1="3.999996" y1="0.000004" x2="58.999981" y2="55.000008" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#1376F8"/>
+			<stop offset="1.000000" stop-color="#25B4F8"/>
+		</linearGradient>
+	</defs>
+	<g filter="url(#filter_15_482_dd)">
+		<rect id="Rectangle 3" x="4.000000" rx="10.000000" width="55.000000" height="55.000000" fill="#FFFFFF" fill-opacity="1.000000"/>
+		<rect id="Rectangle 3" x="4.000000" rx="10.000000" width="55.000000" height="55.000000" stroke="url(#paint_linear_201_3241_0)" stroke-opacity="1.000000" stroke-width="1.000000"/>
+		<rect id="Iconly/Bold/Calling" width="24.000000" height="24.000000" transform="translate(20.000000 16.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<path id="Calling" d="M34.3558 18.0078C34.1328 17.9756 33.9087 18.042 33.7304 18.1836C33.5472 18.3281 33.4326 18.5352 33.4078 18.7686C33.355 19.2393 33.6946 19.665 34.1646 19.7178C37.4063 20.0791 39.9259 22.6045 40.2904 25.8564C40.3392 26.292 40.7047 26.6211 41.1409 26.6211C41.1738 26.6211 41.2057 26.6191 41.2385 26.6152C41.4666 26.5898 41.6697 26.4775 41.8132 26.2969C41.9556 26.1172 42.0203 25.8936 41.9944 25.665C41.5403 21.6074 38.4002 18.459 34.3558 18.0078ZM36.0001 31.0908C36.4515 30.8301 36.9614 30.5361 37.6047 30.6729C38.1873 30.7959 40.1731 32.4082 40.7169 32.9668C41.0734 33.332 41.2716 33.71 41.3025 34.0879C41.3563 35.5693 39.3425 37.2617 38.976 37.4727C38.489 37.8232 37.9224 38 37.286 38C36.6357 38 35.9106 37.8154 35.1199 37.4463C30.8295 35.6553 24.2755 29.2314 22.5427 24.9736C21.8236 23.3887 21.8187 22.082 22.5307 21.0996C22.8145 20.6387 24.4329 18.7129 25.8819 18.7744C26.2673 18.8076 26.6418 19.0049 27.0093 19.3652C27.565 19.9092 29.1365 21.9014 29.258 22.4854C29.3925 23.1348 29.0977 23.6514 28.8358 24.1055C28.7799 24.2031 28.7047 24.3184 28.6222 24.4453C28.3092 24.9268 27.8926 25.5674 28.04 25.9766C29.0967 28.5703 31.5377 30.834 34.1329 31.8975C34.5343 32.043 35.1745 31.623 35.6542 31.3096C35.7791 31.2275 35.8932 31.1523 35.9893 31.0967L36.0001 31.0908ZM33.4142 22.1709C33.5048 21.7061 33.9421 21.4023 34.4181 21.4902C36.5025 21.8965 38.1109 23.5107 38.5182 25.6006C38.6088 26.0654 38.3041 26.5186 37.841 26.6113C37.7852 26.6211 37.7305 26.626 37.6757 26.626C37.2674 26.626 36.9128 26.334 36.8351 25.9307L36.8351 25.9297C36.5623 24.5312 35.4857 23.4512 34.0914 23.1797C33.6284 23.0889 33.3236 22.6348 33.4142 22.1709Z" clip-rule="evenodd" fill="#1376F8" fill-opacity="1.000000" fill-rule="evenodd"/>
+	</g>
+</svg>

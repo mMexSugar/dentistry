@@ -1,0 +1,35 @@
+<svg width="100.000000" height="100.000000" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<filter id="filter_201_3507_dd" x="0.000000" y="0.000000" width="100.000000" height="100.000000" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+			<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+			<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+			<feGaussianBlur stdDeviation="8.33333" result="effect_layerBlur_1"/>
+		</filter>
+		<clipPath id="clip201_3514">
+			<rect id="smile 1" width="48.000000" height="48.000000" transform="translate(26.000000 26.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<g filter="url(#filter_201_3507_dd)">
+		<circle id="Ellipse 5" cx="50.000000" cy="50.000000" r="25.000000" fill="#25B4F8" fill-opacity="1.000000"/>
+	</g>
+	<circle id="Ellipse 5" cx="50.000000" cy="50.000000" r="35.000000" fill="#25B4F8" fill-opacity="1.000000"/>
+	<rect id="smile 1" width="48.000000" height="48.000000" transform="translate(26.000000 26.000000)" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip201_3514)">
+		<path id="path1206" d="M32.06 45.17C34.26 49.37 37.62 51.98 40.84 53.59C45.99 56.18 51.52 56.5 56.76 54.58L56.85 54.54" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1210" d="M59.8 53.18C62.76 51.54 65.76 49.03 67.78 45.19" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1214" d="M26.69 44.51C27.49 45.48 28.3 46.44 29.11 47.39C33.18 52.19 37.14 56.91 42.45 59.77C47.54 62.52 52.44 62.53 57.54 59.77C62.85 56.91 66.81 52.19 70.88 47.39C71.69 46.44 72.5 45.48 73.3 44.51" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1218" d="M45.41 46.13L45.41 49.25C45.41 49.74 45.81 50.14 46.31 50.14L49.08 50.14C49.57 50.14 49.98 49.74 49.98 49.25L49.98 46.22" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1222" d="M49.98 46.22L49.98 49.25C49.98 49.74 50.38 50.14 50.88 50.14L53.65 50.14C54.14 50.14 54.55 49.74 54.55 49.25L54.55 46.13" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1226" d="M54.58 46.13L54.58 49.37C54.58 49.8 54.92 50.14 55.35 50.14L57.74 50.14C58.17 50.14 58.51 49.8 58.51 49.37L58.51 45.95" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1230" d="M58.51 45.95L58.51 48.06C58.51 48.46 58.84 48.79 59.24 48.79L61.5 48.79C61.91 48.79 62.23 48.46 62.23 48.06L62.23 45.7" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1234" d="M45.41 46.13L45.41 49.37C45.41 49.8 45.07 50.14 44.64 50.14L42.25 50.14C41.82 50.14 41.48 49.8 41.48 49.37L41.48 45.95" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1238" d="M41.48 45.95L41.48 48.06C41.48 48.46 41.15 48.79 40.75 48.79L38.49 48.79C38.08 48.79 37.76 48.46 37.76 48.06L37.76 45.7" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1242" d="M41.44 37.13C44.35 36.06 47.34 35.87 50 38.19C55.19 33.66 61.61 38.71 66.39 41.14C68.67 42.3 71 43.38 73.29 44.52C73.29 44.52 62.23 46.16 50 46.22L50 46.22C50 46.22 50 46.22 50 46.22C49.99 46.22 49.99 46.22 49.99 46.22L49.99 46.22C37.76 46.16 26.7 44.52 26.7 44.52C28.99 43.38 31.32 42.3 33.6 41.14C35.06 40.4 36.68 39.41 38.36 38.53L38.5 38.45" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round" stroke-linecap="round"/>
+		<path id="path1246" d="M62.62 62.79C62.5 62.84 62.5 63.01 62.62 63.05C64.17 63.58 65.05 65.16 65.36 65.8C65.4 65.91 65.55 65.91 65.6 65.8C65.9 65.16 66.78 63.58 68.34 63.05C68.46 63.01 68.46 62.84 68.34 62.79C66.78 62.26 65.9 60.68 65.6 60.04C65.55 59.94 65.4 59.94 65.36 60.04C65.05 60.68 64.17 62.26 62.62 62.79Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<path id="path1250" d="M31.69 31.56C31.52 31.62 31.52 31.85 31.69 31.91C33.83 32.65 35.04 34.81 35.46 35.7C35.52 35.84 35.73 35.84 35.79 35.7C36.21 34.81 37.43 32.65 39.56 31.91C39.73 31.85 39.73 31.62 39.56 31.56C37.43 30.82 36.21 28.65 35.79 27.76C35.73 27.62 35.52 27.62 35.46 27.76C35.04 28.65 33.83 30.82 31.69 31.56Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+		<path id="path1254" d="M54.67 68.08C54.5 68.14 54.5 68.37 54.67 68.43C56.8 69.17 58.02 71.34 58.44 72.23C58.5 72.37 58.71 72.37 58.77 72.23C59.19 71.34 60.4 69.17 62.54 68.43C62.71 68.37 62.71 68.14 62.54 68.08C60.4 67.34 59.19 65.17 58.77 64.29C58.71 64.14 58.5 64.14 58.44 64.29C58.02 65.17 56.8 67.34 54.67 68.08Z" stroke="#FFFFFF" stroke-opacity="1.000000" stroke-width="1.500000" stroke-linejoin="round"/>
+	</g>
+</svg>
