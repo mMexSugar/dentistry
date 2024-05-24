@@ -5,6 +5,6 @@ const controller = require('../controllers/appointmentController');
 
 router.get('/appointment', authMiddleware, controller.getAllForUser);
 router.get('/appointment/:dentist_id', authMiddleware, controller.getTimeSlots);
-router.get('/appointment', authMiddleware, controller.create);
+router.post('/appointment', authMiddleware, controller.create);
 
 module.exports = router;

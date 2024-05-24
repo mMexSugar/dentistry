@@ -4,7 +4,7 @@ const jwt = require('jsonwebtoken');
 
 const generateAccessToken = (id, email) => {
     const payload = {id, email};
-    return jwt.sign(payload, process.env.SECRET_KEY, {expiresIn: "24h"});
+    return jwt.sign(payload, "secret", {expiresIn: "24h"});
 }
 
 class authController {
@@ -52,6 +52,25 @@ class authController {
         catch (e) {
             console.error(e.message);
             res.status(400).json({message: "Registration error"});
+        }
+    }
+
+    async verifyToken(req, res) {
+        try {
+            const token = req.headers.authorization.split(' ')[1];
+            if (!token) {
+                return res.status(400).json({message: "Token not provided"});
+            }
+            jwt.verify(token, "secret", (err, user) => {
+                if (err) {
+                    return res.status(400).json({message: "Invalid token"});
+                }
+                return res.json({valid: true});
+            });
+        }
+        catch (e) {
+            console.error(e.message);
+            res.status(400).json({message: "Token verification error"});
         }
     }
 }

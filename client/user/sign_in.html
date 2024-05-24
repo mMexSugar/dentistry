@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../user/reg_log_style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.cdnfonts.com/css/gilroy-bold" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+        <div class="block">
+            <div class="registration_block_elements">
+                <div class="sing_up_title">
+                    <h3>Sign up to Healthy.Today</h3>
+                    <a style="display: none" href="../Contuct%20Us/contactUs.html" class="contact">Contact us</a>
+                </div>
+                <form action="http://localhost:3000/register" method="post">
+                    <div class="input_box">
+                        <input type="text" name="first_name" class="text" placeholder="First Name" required>
+                    </div>
+                    <div class="input_box">
+                        <input class= "text" name="last_name" type="text" placeholder="Last Name" required>
+                    </div>
+                    <div class="input_box">
+                        <input class= "text" name="middle_name" type="text" placeholder="Middle Name" required>
+                    </div>
+                    <div class="input_box">
+                        <input class= "Email" name="email" type="Email" placeholder="Email" required>
+                    </div>
+                    <div class="input_box">
+                        <input class= "text" name="phone" type="text" placeholder="Phone number" required>
+                    </div>
+                    <div class="input_box">
+                        <input class= "password" name="password" type="password" placeholder="Password" required>
+                    </div>
+                
+                    <button id="register" type="submit" class="btn">Sing Up</button>
+                </form>
+                <div class="create">
+                    Have already?
+                    <a href="" class="singInBTNlink">Log in</a>
+                </div>
+                <script src="../user/script.js"></script>
+                
+        </div>
+        <div class="registration_block_elements">
+            <div class="sing_up_title">
+                <h3>Sign in to Healthy.Today</h3>
+            </div>
+            <div class="block_sing_with">
+                <div class="sing_with">
+                    <img src="../user/img/google.png" alt="">
+                    <a href="" class="btnwith">Continue with Google</a>
+                </div>
+            </div>
+            
+                
+            <div class="or">or</div>
+                
+            <form>
+                <div class="input_box">
+                    <input id="logInEmail" type="Email" class="email" placeholder="Email" required>
+                </div>
+                <div class="input_box">
+                    <input required id="logInPassword" class="password" type="password" placeholder="Password">
+                </div>
+                <button id="logIn" type="submit" class="btn">Log In</button>
+            </form>
+
+            <div class="create">
+                No account?
+                <a href="../user/sign_in.html">Creare one</a>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

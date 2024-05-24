@@ -11,5 +11,6 @@ router.post('/register', [
     check("last_name", "Min name length 2").isLength({min: 2}),
     check("birth_date", "Incorrect date").isDate(),
 ], controller.register);
+router.post('/verify', controller.verifyToken);
 
 module.exports = router;

@@ -9,7 +9,7 @@ module.exports = function (req, res, next) {
         if(!token) {
             return res.status(401).json({message: "Not authorized"})
         }
-        req.patient = jwt.verify(token, process.env.SECRET_KEY);
+        req.patient = jwt.verify(token, "secret");
         next();
     } catch (e){
         console.log(e);

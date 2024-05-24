@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 main {
   width: 1280px;
 }
@@ -307,12 +311,14 @@ textarea {
 
 .appointmant_button__container {
   margin-top: 30px;
+
 }
 
 
 .appointmant_button {
   width: 227px;
   height: 55px;
+  padding: 15px;
   border-radius: 10px;
   border: none;
   background-color: rgb(19, 118, 248);
@@ -496,4 +502,18 @@ hr {
   align-items: center;
   justify-content: space-between;
   width: 200px;
+}
+
+select {
+    background-color: rgb(255, 255, 255);
+    box-sizing: border-box;
+    border: 2px solid rgb(207, 207, 207);
+    height: 56px;
+    border-radius: 6px;
+    font-family: 'open sans';
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: rgb(207, 207, 207);
 }

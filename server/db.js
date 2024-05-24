@@ -142,10 +142,4 @@ Appointment.belongsTo(Dentist, { foreignKey: 'dentist_id' });
 Service.hasMany(Appointment, { foreignKey: 'service_id' });
 Appointment.belongsTo(Service, { foreignKey: 'service_id' });
 
-// sequelize.sync({ force: true }).then(() => {
-//     console.log('Database & tables created!');
-// });
-// INSERT INTO "Patients" (email, password, first_name, last_name, birth_date, gender, phone)
-// VALUES ('john.doe@example.com', '1111', 'John', 'Doe', '2003-01-21', 'male', '+380999999999');
-
 module.exports = { Patient, Dentist, Service, Appointment };

@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../Contuct%20Us/contuctUs.css">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo_img">
+    
+                <img src="../Contuct%20Us/assets/logo.png" alt="">
+            
+            </div>
+    
+            <div class="nav_bar__container">
+                <div><a href="../home/home.html" class="home">Home</a></div>
+                <div><a href="../services/services.html" class="service">Service</a></div>
+                <div><a href="../About%20Us/aboutUs.html" class="about">About us</a></div>
+                <div><a href="contactUs.html" class="contact">Contact us</a></div>
+            </div>
+    
+            <div>    
+                <button class="nav_button">Book now</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <div class="get_in__touch__title">
+                <div>    
+                    <h1>
+                        Get in touch
+                    </h1> 
+                </div>
+                <div>
+                    <p class="get_in__touch___description">Book an Appointment to treat your teeth right now.</p>            
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <div class="container">
+                <div class="map_block__container">
+                    <div>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d82352.6850243064!2d23.929662844391594!3d49.83265972205348!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7c09109a57%3A0x4223c517012378e2!2z0JvRjNCy0ZbQsiwg0JvRjNCy0ZbQstGB0YzQutCwINC-0LHQu9Cw0YHRgtGMLCA3OTAwMA!5e0!3m2!1suk!2sua!4v1715590103680!5m2!1suk!2sua" width="500" height="325" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+    
+                    <div class="info_container">
+                        <div class="info_block">
+                            
+                            <div class="left_colum">
+                                <div>
+                                    <img src="../Contuct%20Us/assets/office_time.svg" alt="">
+                                </div>
+                                <div class="info_text__container">
+                                    <p class="info_text">Office Timings</p>
+                                    <p class="sr_text">Monday - Saturday (9:00am to 5pm)
+                                        Sunday (Closed)</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info_block">
+                            
+                            <div class="left_colum">
+                                <div>
+                                    <img src="../Contuct%20Us/assets/map.svg" alt="">
+                                </div>
+                                <div class="info_text__container">
+                                    <p class="info_text">Emai Address</p>
+                                    <p class="sr_text">Smile01@gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info_block">
+                            
+                            <div class="left_colum">
+                                <div>
+                                    <img src="../Contuct%20Us/assets/phone.svg" alt="">
+                                </div>
+                                <div class="info_text__container">
+                                    <p class="info_text">Phone Number</p>
+                                    <p class="sr_text">0900-78601</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="info_block">
+                            
+                            <div class="left_colum">
+                                <div>
+                                    <img src="../Contuct%20Us/assets/message.svg" alt="">
+                                </div>
+                                <div class="info_text__container">
+                                    <p class="info_text">Live chat</p>
+                                    <p class="sr_text">+1-2064512559</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>                    
+                </div>
+
+                <form class="inputs_container">
+                    <div class="other_inputs__container">
+                        <div class="other_inputs">
+                            <div>
+                                <p class="inputs_titles__style">Dentist</p>
+                            </div>
+
+                            <select onchange="fetchTimeSlots()" id="dentist_id" required name="dentist_id"> </select>
+                        </div>
+                        <div class="other_inputs">
+                            <div>
+                                <p class="inputs_titles__style">Service</p>
+                            </div>
+
+                            <select required id="service_id" name="service_id"> </select>
+                        </div>
+
+                        <div class="other_inputs">
+                            <div>
+                                <p class="inputs_titles__style">Date</p>
+                            </div>
+
+                            <input onchange="fetchTimeSlots()" id="data" required style="padding: 5px" type="date">
+                        </div>
+
+                        <div class="other_inputs">
+                            <div>
+                                <p class="inputs_titles__style">Time</p>
+                            </div>
+
+                            <select required id="time" name="time"></select>
+                        </div>
+
+                        <div class="other_inputs">
+                            <div>
+                                <p class="inputs_titles__style">Message</p>
+                            </div>
+                            <div class="textarea_container">
+                                <textarea name="comment" id="comment" cols="30" rows="10" class="textarea" ></textarea>
+
+                                <div class="appointmant_button__container">
+                                    <button id="submitBtn" type="submit" class="appointmant_button">Book an appointment</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section>
+            <div class="accordion">
+                <div class="FAQ_title__container">
+                    <div>    
+                        <h1>
+                            Frequently Ask Question
+                        </h1> 
+                    </div>
+                    <div>
+                        <p class="FAQ_description">We use only the best quality materials on the market in order to provide the best products to our patients.</p>            
+                    </div>
+                </div>
+                
+                
+                <div class="accordion-item">
+            
+                        <div class="openButtonWrapper">
+                            <img src="../Contuct%20Us/assets/Do%20you%20offer%20non-profit%20discounts_.svg" alt="">
+                            <img src="../Contuct%20Us/assets/Vector.svg" alt="" class="accordion-header-button">
+                        </div>
+                        <hr class="FAQ_hr">
+                        <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+                </div>
+                
+                <div class="accordion-item">
+                    <div class="openButtonWrapper">
+                        <img src="../Contuct%20Us/assets/Do%20you%20offer%20non-profit%20discounts_.svg" alt="">
+                        <img src="../Contuct%20Us/assets/Vector.svg" alt="" class="accordion-header-button">
+                    </div>
+                    <hr class="FAQ_hr">
+                    <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            
+                </div>
+        
+        
+                <div class="accordion-item">
+                    <div class="openButtonWrapper">
+                        <img src="../Contuct%20Us/assets/Do%20you%20offer%20non-profit%20discounts_.svg" alt="">
+                        <img src="../Contuct%20Us/assets/Vector.svg" alt="" class="accordion-header-button">
+                    </div>
+                    <hr class="FAQ_hr">
+                    <p class="accordion-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+
+        <div class="footer_background">
+            <div class="footer_background_container">
+                <div>
+                    <p class="footer_title__text">Dental Website that's gonna shake the game rules up.</p>
+                </div>
+                <div>
+                    <p class="footer_description__text">We use only the best quality materials on the market in order to provide the best products to our patients.</p>
+                </div>
+        
+                <div>
+                    <button class="footer_button">Learn more</button>
+                </div>
+            </div>
+    
+            <div>
+                <img src="../Contuct%20Us/assets/footer_img.svg" alt="">
+            </div>
+        </div>
+
+
+
+
+        <div class="footer_nav__container">
+    
+            <div class="logo_img">
+    
+                <img src="../Contuct%20Us/assets/logo.png" alt="">
+            
+            </div>
+    
+            <div class="nav_bar__container">
+                <div><a href="../home/home.html" class="home">Home</a></div>
+                <div><a href="../services/services.html" class="service">Service</a></div>
+                <div><a href="../About%20Us/aboutUs.html" class="about">About us</a></div>
+                <div><a href="contactUs.html" class="contact">Contact us</a></div>
+            </div>
+        </div>
+    
+        <hr>
+
+        <div class="footer_social__media___container">
+            <div>
+                <p class="rights_text__style">All rights reserved ® <a href="">uifry.com</a>  | Terms and conditions apply!</p>
+            </div>
+            <div class="footer_social__media">
+                <a href="">
+                    <img src="../Contuct%20Us/assets/facebook.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../Contuct%20Us/assets/instagram.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../Contuct%20Us/assets/youtube.svg" alt="">
+                </a>
+                <a href="">
+                    <img src="../Contuct%20Us/assets/linkedin.svg" alt="">
+                </a>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>

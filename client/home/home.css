@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+a{
+    text-decoration: none;
+}
+
 main {
     width: 1280px;
 }
@@ -149,6 +153,7 @@ nav {
 .appointmant_button {
     width: 227px;
     height: 55px;
+    padding: 15px;
     border-radius: 10px;
     border: none;
     background-color: rgb(19, 118, 248);

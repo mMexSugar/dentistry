@@ -1,6 +1,8 @@
 const express = require('express');
 const port =  3000;
 const cors = require('cors');
+const { sequelize } = require('./db');
+const pg = require('pg');
 const AuthRouter = require('./routers/AuthRouter');
 const DentistRouter = require('./routers/DentistRouter');
 const ServiceRouter = require('./routers/ServiceRouter');
@@ -9,7 +11,7 @@ const app = express();
 
 app.use(express.json());
 app.use(cors());
-app.use('/auth', AuthRouter);
+app.use(AuthRouter);
 app.use(DentistRouter);
 app.use(ServiceRouter);
 app.use(AppointmentRouter);
