@@ -45,13 +45,15 @@ const register = function () {
             last_name: document.querySelector('input[name=last_name]').value,
             middle_name: document.querySelector('input[name=middle_name]').value,
             birth_date: document.querySelector('input[name=birth_date]').value,
+            phone: document.querySelector('input[name=phone]').value,
         })
     }).then(response => response.json())
         .then(data => {
-            if (data.message) {
-                alert(data.message);
+            if (!data.errors) {
+                alert(data.message + ". Please log in.");
             } else {
-                alert('Registration failed: ' + (data.message || 'Unknown error'));
+                alert('Registration failed: ' + (data.errors.errors[0].msg || 'Unknown error'));
+                console.log(data.errors.errors);
             }
         })
 }
