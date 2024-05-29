@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../About%20Us/aboutUs.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>AboutUS</title>
+    <title>Document</title>
 </head>
 <body>
     <header>
@@ -24,12 +24,12 @@
                     <div><a href="../home/home.html" class="home">Home</a></div>
                     <div><a href="../services/services.html" class="service">Service</a></div>
                     <div><a href="aboutUs.html" class="about">About us</a></div>
-                    <div><a onclick="verify()" class="contact">Contact us</a></div>
+                    <div><a class="contact verify">Contact us</a></div>
                     <a href="../user/sign_in.html" id="register" style="display: none"></a>
                 </div>
         
                 <div>
-                    <button onclick="verify()" class="nav_button">Book now</button>
+                    <button class="nav_button verify">Book now</button>
                 </div>
             </nav>
         </section>
@@ -123,7 +123,7 @@
         
         
                     <div class="appointmant_button__container">
-                        <button onclick="verify()" class="appointmant_button">Book an appointment</button>
+                        <button class="appointmant_button verify">Book an appointment</button>
                     </div>
                 </div>
             </div>
@@ -157,7 +157,7 @@
         
         
                     <div class="appointmant_button__container">
-                        <button onclick="verify()" class="appointmant_button">Book an appointment</button>
+                        <button class="appointmant_button verify">Book an appointment</button>
                     </div>
                 </div>
             </div>
@@ -192,7 +192,7 @@
         
         
                     <div class="appointmant_button__container">
-                        <button onclick="verify()"  class="appointmant_button">Book an appointment</button>
+                        <button class="appointmant_button verify">Book an appointment</button>
                     </div>
                 </div>
             </div>
@@ -342,7 +342,7 @@
                 </div>
     
                 <div>
-                    <button onclick="verify()" class="appointmant_button">Book an appointment</button>
+                    <button class="appointmant_button verify">Book an appointment</button>
                 </div> 
     
             </div>
@@ -383,10 +383,11 @@
             </div>
     
             <div class="nav_bar__container">
+                <div style="display: none"><a href="../Contuct%20Us/contactUs.html" id="contact"></a></div>
                 <div><a href="../home/home.html" class="home">Home</a></div>
                 <div><a href="../services/services.html" class="service">Service</a></div>
                 <div><a href="aboutUs.html" class="about">About us</a></div>
-                <div><a onclick="verify()" class="contact">Contact us</a></div>
+                <div><a class="contact verify">Contact us</a></div>
             </div>
         </div>
 
@@ -414,5 +415,5 @@
     
     </footer>
 </body>
-<script src="aboutUs.js"></script>
+<script src="../script.js"></script>
 </html>

@@ -89,9 +89,7 @@ nav {
     text-decoration: none;
     color: black;
 }
-.contact:hover {
-    cursor: pointer;
-}
+
 
 .nav_button {
     display: flex;

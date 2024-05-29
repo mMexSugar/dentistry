@@ -81,9 +81,7 @@ nav {
     text-decoration: none;
     color: black;
 }
-.contact:hover {
-    cursor: pointer;
-}
+
 .contact {
     font-family: 'open sans';
     font-weight: 600;

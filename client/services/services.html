@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../services/services.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Services</title>
+    <title>Document</title>
 </head>
 <body>
 
@@ -25,12 +25,12 @@
                 <div><a href="../home/home.html" class="home">Home</a></div>
                 <div><a href="#" class="service">Service</a></div>
                 <div><a href="../About%20Us/aboutUs.html" class="about">About us</a></div>
-                <div><a onclick="verify()" class="contact">Contact us</a></div>
+                <div><a class="contact verify">Contact us</a></div>
                 <a href="../user/sign_in.html" id="register" style="display: none"></a>
             </div>
 
             <div>
-                <button onclick="verify()" class="nav_button">Book now</button>
+                <button class="nav_button verify">Book now</button>
             </div>
         </nav>
     </section>
@@ -67,8 +67,8 @@
                     <p class="services_text__description___style">Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth.</p>
                 </div>
                 <div class="learn_more__container">
-                    <p class="learn_more__text___style">Price - 25$</p>
-                    <p></p>
+                    <p class="learn_more__text___style">Learn More</p>
+                    <p>→</p>
                 </div>
              </div>
          
@@ -78,15 +78,15 @@
                  </div>
           
                  <div>
-                     <p class="services_text__style">Pulpectomy</p>
+                     <p class="services_text__style">Root Canal Treatment</p>
                  </div>
                  
                  <div  class="text">
-                     <p class="services_text__description___style">A pulpectomy is a complete removal of the dental pulp from both the crown and root canals of a tooth.</p>
+                     <p class="services_text__description___style">Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth.</p>
                  </div>
                  <div class="learn_more__container">
-                    <p class="learn_more__text___style">Price - 28$</p>
-                    <p></p>
+                    <p class="learn_more__text___style">Learn More</p>
+                    <p>→</p>
                 </div>
              </div>
          
@@ -97,15 +97,15 @@
                  </div>
           
                  <div>
-                     <p class="services_text__style">Vital Pulp Therapy</p>
+                     <p class="services_text__style">Root Canal Treatment</p>
                  </div>
                  
                  <div  class="text">
-                     <p class="services_text__description___style">Vital pulp therapy is a conservative approach to treat teeth with reversible pulpitis, where the pulp is inflamed but still viable.</p>
+                     <p class="services_text__description___style">Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth.</p>
                  </div>
                  <div class="learn_more__container">
-                    <p class="learn_more__text___style">Price - 35$</p>
-                    <p></p>
+                    <p class="learn_more__text___style">Learn More</p>
+                    <p>→</p>
                 </div>
              </div>
              <!--  -->
@@ -123,8 +123,8 @@
                     <p class="services_text__description___style">It's never been easier to brighten your smile at home. There are all kinds of products you can try.</p>
                 </div>
                 <div class="learn_more__container">
-                    <p class="learn_more__text___style">Price - 20$</p>
-                    <p></p>
+                    <p class="learn_more__text___style">Learn More</p>
+                    <p>→</p>
                 </div>
              </div>
          
@@ -141,8 +141,8 @@
                      <p class="services_text__description___style">In general, any dental problem that needs immediate treatment to stop bleeding, alleviate severe pain.</p>
                  </div>
                  <div class="learn_more__container">
-                    <p class="learn_more__text___style">Price - 45$</p>
-                    <p></p>
+                    <p class="learn_more__text___style">Learn More</p>
+                    <p>→</p>
                 </div>
              </div>
          
@@ -160,8 +160,8 @@
                      <p class="services_text__description___style">Preventive dentistry is dental care that helps maintain good oral health. a combination of regular dental.</p>
                  </div>
                  <div class="learn_more__container">
-                     <p class="learn_more__text___style">Price - 35$</p>
-                     <p></p>
+                     <p class="learn_more__text___style">Learn More</p>
+                     <p>→</p>
                  </div>
              </div>
         </div>
@@ -232,7 +232,7 @@
             </div>
 
             <div>
-                <button onclick="verify()" class="appointmant_button">Book an appointment</button>
+                <button class="appointmant_button verify">Book an appointment</button>
             </div> 
 
         </div>
@@ -419,10 +419,11 @@
         </div>
 
         <div class="nav_bar__container">
+            <div style="display: none"><a href="../Contuct%20Us/contactUs.html" id="contact"></a></div>
             <div><a href="../home/home.html" class="home">Home</a></div>
             <div><a href="#" class="service">Service</a></div>
             <div><a href="../About%20Us/aboutUs.html" class="about">About us</a></div>
-            <div><a onclick="verify()" class="contact">Contact us</a></div>
+            <div><a class="contact verify">Contact us</a></div>
         </div>
     </div>
     
@@ -451,36 +452,6 @@
     </div>
 
 </footer>
-    <script src="script.js"></script>
-<script>
-    const verify = function () {
-        const token = localStorage.getItem('token');
-        if (!token) {
-            console.log(token);
-            document.getElementById("register").click();
-        } else {
-            fetch('https://dentistry-rho.vercel.app/verify', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                }
-            })
-                .then(response => response.json())
-                .then(data => {
-                    if (!data.valid) {
-                        localStorage.removeItem('token');
-                        $('#register').click();
-                    }
-                    $('.contact')[0].click();
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    localStorage.removeItem('token');
-                    window.location.href = '/login.html';
-                });
-        }
-    }
-</script>
+    <script src="../script.js"></script>
 </body>
 </html>

@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../home/home.css">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <title>Home</title>
+    <title>Document</title>
 </head>
 <body>
 
@@ -20,15 +20,16 @@
             </div>
 
             <div class="nav_bar__container">
+                <div style="display: none"><a href="../Contuct%20Us/contactUs.html" id="contact"></a></div>
                 <div><a href="#" class="home">Home</a></div>
                 <div><a href="../services/services.html" class="service">Service</a></div>
                 <div><a href="../About%20Us/aboutUs.html" class="about">About us</a></div>
-                <div><a onclick="verify()" class="contact">Contact us</a></div>
+                <div><a class="contact verify">Contact us</a></div>
                 <a href="../user/sign_in.html" id="register" style="display: none"></a>
             </div>
 
             <div>
-                <button onclick="verify()"  class="nav_button">Book now</button>
+                <button class="nav_button verify">Book now</button>
             </div>
         </nav>
 
@@ -44,7 +45,7 @@
 
                 <div class="header_content_container"> 
                     <div class="appointmant_button__container">
-                        <button onclick="verify()"  class="appointmant_button">Book an appointment</button>
+                        <button class="appointmant_button verify">Book an appointment</button>
                     </div>
 
                     <div class="call_us__container">
@@ -106,10 +107,8 @@
                 <p class="services_text__description___style">Root canal treatment (endodontics) is a dental procedure used to treat infection at the centre of a tooth.</p>
             </div>
             <div class="learn_more__container">
-                <a href="../services/services.html">
-                    <p class="learn_more__text___style">Learn More</p>
-                    <p>→</p>
-                </a>
+                <p class="learn_more__text___style">Learn More</p>
+                <p>→</p>
             </div>
         </div>
      
@@ -126,7 +125,6 @@
                 <p class="services_text__description___style">Cosmetic dentistry is the branch of dentistry that focuses on improving the appearance of your smile.</p>
             </div>
             <div class="learn_more__container">
-                <a href="../services/services.html"></a>
                 <p class="learn_more__text___style">Learn More</p>
                 <p>→</p>
             </div>
@@ -236,7 +234,7 @@
 
 
             <div>
-                <button onclick="verify()"  class="appointmant_button">Book an appointment</button>
+                <button class="appointmant_button verify">Book an appointment</button>
             </div> 
         </div>
     </div>
@@ -260,7 +258,7 @@
             </div>
 
             <div>
-                <button onclick="verify()" class="appointmant_button">Book an appointment</button>
+                <button class="appointmant_button verify">Book an appointment</button>
             </div> 
 
         </div>
@@ -580,7 +578,7 @@
             <div><a href="#" class="home">Home</a></div>
             <div><a href="../services/services.html" class="service">Service</a></div>
             <div><a href="../About%20Us/aboutUs.html" class="about">About us</a></div>
-            <div><a onclick="verify()" class="contact">Contact us</a></div>
+            <div><a class="contact verify">Contact us</a></div>
         </div>
     </div>
     
@@ -610,34 +608,5 @@
 
 </footer>
 </body>
-<script>
-    const verify = function () {
-        const token = localStorage.getItem('token');
-        if (!token) {
-            console.log(token);
-            document.getElementById("register").click();
-        } else {
-            fetch('https://dentistry-rho.vercel.app/verify', {
-                method: 'POST',
-                headers: {
-                    'Content-Type': 'application/json',
-                    'Authorization': `Bearer ${token}`
-                }
-            })
-                .then(response => response.json())
-                .then(data => {
-                    if (!data.valid) {
-                        localStorage.removeItem('token');
-                        $('#register').click();
-                    }
-                    $('.contact')[0].click();
-                })
-                .catch(error => {
-                    console.error('Error:', error);
-                    localStorage.removeItem('token');
-                    window.location.href = '/login.html';
-                });
-        }
-    }
-</script>
+    <script src="../script.js"></script>
 </html>
