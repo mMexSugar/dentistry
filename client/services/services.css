@@ -90,6 +90,10 @@ nav {
     color: black;
 }
 
+.contact:hover{
+    cursor: pointer;
+}
+
 
 .nav_button {
     display: flex;
